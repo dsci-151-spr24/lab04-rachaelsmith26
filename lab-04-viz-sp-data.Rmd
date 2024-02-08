@@ -1,12 +1,16 @@
 ---
 title: "Lab 04 - La Quinta is Spanish for next to Denny's, Pt. 1"
 subtitle: "Visualizing spatial data"
+author: "Rachael Smith"
 output: 
   tufte::tufte_html:
     tufte_variant: "envisioned"
     highlight: pygments
     css: ../lab.css
 link-citations: true
+editor_options: 
+  markdown: 
+    wrap: sentence
 ---
 
 ```{r include = FALSE}
@@ -39,7 +43,7 @@ But for now we focus on the data that has already been scraped and tidied for yo
 
 # Getting started
 
-[Go to the github repo and bring it into Posit Cloud.](https://classroom.github.com/a/82bhDG2j) 
+[Go to the github repo and bring it into Posit Cloud.](https://classroom.github.com/a/82bhDG2j)
 
 ## Warm up
 
@@ -58,7 +62,7 @@ You can load them by running the following in your Console:
 
 When you do this lab to install `dsbox` you can copy the code below into the console:
 
-```
+```         
 install.packages("devtools")
 devtools::install_github("tidyverse/dsbox")
 ```
